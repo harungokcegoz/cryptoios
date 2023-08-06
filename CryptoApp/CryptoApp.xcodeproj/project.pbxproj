@@ -8,17 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		4A50FA5B2A7AC0DA00EF7498 /* CryptoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A50FA5A2A7AC0DA00EF7498 /* CryptoAppApp.swift */; };
-		4A50FA5D2A7AC0DA00EF7498 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A50FA5C2A7AC0DA00EF7498 /* ContentView.swift */; };
-		4A50FA5F2A7AC0DB00EF7498 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A50FA5E2A7AC0DB00EF7498 /* Assets.xcassets */; };
 		4A50FA622A7AC0DB00EF7498 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A50FA612A7AC0DB00EF7498 /* Preview Assets.xcassets */; };
+		4A50FA692A7AC1C400EF7498 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A50FA682A7AC1C400EF7498 /* Assets.xcassets */; };
+		4A50FA6C2A7AC3B400EF7498 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A50FA6B2A7AC3B400EF7498 /* Color.swift */; };
+		4A68E6EE2A7C076E006AA0DB /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A68E6ED2A7C076E006AA0DB /* HomeViewModel.swift */; };
+		4A94E3A92A7AC8DC00D48042 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A94E3A82A7AC8DC00D48042 /* HomeView.swift */; };
+		4A94E3AD2A7ACA8800D48042 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A94E3AC2A7ACA8800D48042 /* CircleButtonView.swift */; };
+		4A94E3AF2A7B0E4400D48042 /* CircleButtonAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A94E3AE2A7B0E4400D48042 /* CircleButtonAnimationView.swift */; };
+		4A94E3B22A7BCE2A00D48042 /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A94E3B12A7BCE2A00D48042 /* CoinModel.swift */; };
+		4A94E3B42A7BDA2200D48042 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A94E3B32A7BDA2200D48042 /* CoinRowView.swift */; };
+		4A94E3B62A7BDA7900D48042 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A94E3B52A7BDA7900D48042 /* PreviewProvider.swift */; };
+		4A94E3B82A7BEACD00D48042 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A94E3B72A7BEACD00D48042 /* Double.swift */; };
+		4AF72BCD2A80310400207C1C /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF72BCC2A80310400207C1C /* CoinDataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4A50FA572A7AC0DA00EF7498 /* CryptoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A50FA5A2A7AC0DA00EF7498 /* CryptoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoAppApp.swift; sourceTree = "<group>"; };
-		4A50FA5C2A7AC0DA00EF7498 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		4A50FA5E2A7AC0DB00EF7498 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A50FA612A7AC0DB00EF7498 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4A50FA682A7AC1C400EF7498 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Preview Content/Assets.xcassets"; sourceTree = "<group>"; };
+		4A50FA6B2A7AC3B400EF7498 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		4A68E6ED2A7C076E006AA0DB /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		4A94E3A82A7AC8DC00D48042 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4A94E3AC2A7ACA8800D48042 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
+		4A94E3AE2A7B0E4400D48042 /* CircleButtonAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonAnimationView.swift; sourceTree = "<group>"; };
+		4A94E3B12A7BCE2A00D48042 /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
+		4A94E3B32A7BDA2200D48042 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
+		4A94E3B52A7BDA7900D48042 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
+		4A94E3B72A7BEACD00D48042 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		4AF72BCC2A80310400207C1C /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,20 +69,93 @@
 		4A50FA592A7AC0DA00EF7498 /* CryptoApp */ = {
 			isa = PBXGroup;
 			children = (
+				4A50FA6A2A7AC39700EF7498 /* Extensions */,
+				4AF72BCB2A8030E700207C1C /* Services */,
+				4A94E3B02A7BCE1900D48042 /* Model */,
+				4A94E3A22A7AC87B00D48042 /* Core */,
 				4A50FA5A2A7AC0DA00EF7498 /* CryptoAppApp.swift */,
-				4A50FA5C2A7AC0DA00EF7498 /* ContentView.swift */,
-				4A50FA5E2A7AC0DB00EF7498 /* Assets.xcassets */,
-				4A50FA602A7AC0DB00EF7498 /* Preview Content */,
+				4A50FA682A7AC1C400EF7498 /* Assets.xcassets */,
+				4A50FA612A7AC0DB00EF7498 /* Preview Assets.xcassets */,
 			);
 			path = CryptoApp;
 			sourceTree = "<group>";
 		};
-		4A50FA602A7AC0DB00EF7498 /* Preview Content */ = {
+		4A50FA6A2A7AC39700EF7498 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				4A50FA612A7AC0DB00EF7498 /* Preview Assets.xcassets */,
+				4A50FA6B2A7AC3B400EF7498 /* Color.swift */,
+				4A94E3B52A7BDA7900D48042 /* PreviewProvider.swift */,
+				4A94E3B72A7BEACD00D48042 /* Double.swift */,
 			);
-			path = "Preview Content";
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4A94E3A22A7AC87B00D48042 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				4A94E3AA2A7ACA5F00D48042 /* Components */,
+				4A94E3A32A7AC88500D48042 /* Home */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		4A94E3A32A7AC88500D48042 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4A94E3A52A7AC8A000D48042 /* ViewModels */,
+				4A94E3A42A7AC89A00D48042 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4A94E3A42A7AC89A00D48042 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4A94E3A82A7AC8DC00D48042 /* HomeView.swift */,
+				4A94E3B32A7BDA2200D48042 /* CoinRowView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4A94E3A52A7AC8A000D48042 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4A68E6ED2A7C076E006AA0DB /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4A94E3AA2A7ACA5F00D48042 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4A94E3AB2A7ACA7800D48042 /* CircleButton */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		4A94E3AB2A7ACA7800D48042 /* CircleButton */ = {
+			isa = PBXGroup;
+			children = (
+				4A94E3AC2A7ACA8800D48042 /* CircleButtonView.swift */,
+				4A94E3AE2A7B0E4400D48042 /* CircleButtonAnimationView.swift */,
+			);
+			path = CircleButton;
+			sourceTree = "<group>";
+		};
+		4A94E3B02A7BCE1900D48042 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4A94E3B12A7BCE2A00D48042 /* CoinModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4AF72BCB2A8030E700207C1C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4AF72BCC2A80310400207C1C /* CoinDataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A50FA622A7AC0DB00EF7498 /* Preview Assets.xcassets in Resources */,
-				4A50FA5F2A7AC0DB00EF7498 /* Assets.xcassets in Resources */,
+				4A50FA692A7AC1C400EF7498 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +228,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A50FA5D2A7AC0DA00EF7498 /* ContentView.swift in Sources */,
+				4A94E3A92A7AC8DC00D48042 /* HomeView.swift in Sources */,
 				4A50FA5B2A7AC0DA00EF7498 /* CryptoAppApp.swift in Sources */,
+				4A94E3AF2A7B0E4400D48042 /* CircleButtonAnimationView.swift in Sources */,
+				4A68E6EE2A7C076E006AA0DB /* HomeViewModel.swift in Sources */,
+				4A94E3AD2A7ACA8800D48042 /* CircleButtonView.swift in Sources */,
+				4A94E3B22A7BCE2A00D48042 /* CoinModel.swift in Sources */,
+				4A94E3B62A7BDA7900D48042 /* PreviewProvider.swift in Sources */,
+				4A94E3B42A7BDA2200D48042 /* CoinRowView.swift in Sources */,
+				4A94E3B82A7BEACD00D48042 /* Double.swift in Sources */,
+				4A50FA6C2A7AC3B400EF7498 /* Color.swift in Sources */,
+				4AF72BCD2A80310400207C1C /* CoinDataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +370,13 @@
 				DEVELOPMENT_TEAM = GZS742E348;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CryptoTracker;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -282,6 +384,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.harungokcegoz.CryptoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -299,11 +404,13 @@
 				DEVELOPMENT_TEAM = GZS742E348;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CryptoTracker;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,6 +418,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.harungokcegoz.CryptoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
